@@ -1,0 +1,37 @@
+.homePage{
+    width: 1180px;
+    margin: 0 auto;
+    ul{
+        list-style: none;
+        li{
+            width: 350px;
+            height: 350px;
+            padding: 10px;
+            border: 1px solid rgb(161, 161, 161);
+            border-radius: 5px;
+            float: left;
+            margin-top: 10px;
+            margin-right: 5px;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: black;
+                img{
+                    display: block;
+                    margin: auto;
+                }
+            }
+            &:hover{
+                border: 1px solid rgb(0, 0, 0);
+            }
+        }
+    }
+    .displayLoading{
+        width: 100%;
+        display: block;
+    }
+    .hideLoading{
+        width: 100%;
+        display: none;
+    }
+}
